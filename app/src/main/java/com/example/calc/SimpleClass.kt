@@ -2,9 +2,13 @@ package com.example.calc
 
 class SimpleClass(val userInformationDataClass:UserInformationDataClass) {
 
+
+    /**
+     * This Functions is to Save Users Data in DataBase ->Offline
+     * */
     fun saveUserDataInDatabase(){
-        userInformationDataClass.userName="Ali"
-        userInformationDataClass.email="naji6823.an@gmail.com"
-        userInformationDataClass.phoneNumber="09366888512"
+        userInformationDataClass.userName
+        userInformationDataClass.email
+        userInformationDataClass.phoneNumber
     }
 }
