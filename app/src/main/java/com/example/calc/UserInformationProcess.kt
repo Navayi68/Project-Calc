@@ -1,6 +1,6 @@
 package com.example.calc
 
-class SimpleClass(val userInformationDataClass:UserInformationDataClass) {
+class UserInformationProcess(val userInformationDataClass:UserInformationDataClass) {
 
 
     /**
@@ -10,5 +10,12 @@ class SimpleClass(val userInformationDataClass:UserInformationDataClass) {
         userInformationDataClass.userName
         userInformationDataClass.email
         userInformationDataClass.phoneNumber
+    }
+
+    /**
+     * Search In Database Based on UserName
+     * */
+    fun searcheInDatabase(username:String){
+        
     }
 }

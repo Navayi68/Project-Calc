@@ -18,6 +18,6 @@ class InformationUserActivity : AppCompatActivity() {
             phoneNumber ="09366888512"
         )
 
-        val simpleClass:SimpleClass= SimpleClass(userInformationDataClass)
+        val userInformationProcess:UserInformationProcess= UserInformationProcess(userInformationDataClass)
     }
 }

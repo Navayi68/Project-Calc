@@ -43,12 +43,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View) {
-        var txtResult=findViewById<TextView>(R.id.txt_result)
+        var txtResult=findViewById<TextView>(R.id.text_result)
 
         when(v.id){
             R.id.btn_zero->{
                 if(txtResult.text!="0")
-                    txt_result.text=(txtResult.text).toString().plus("0")
+                    text_result.text=(txtResult.text).toString().plus("0")
             }
             R.id.btn_one->{
                 if(txtResult.text=="0") {
@@ -188,7 +188,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_dot->{
 
             }
-            R.id.btn_ac->txt_result.text="0"
+            R.id.btn_ac->text_result.text="0"
         }
     }
 }
